@@ -28,3 +28,6 @@ http://localhost:1337/redoc
 
 Доступ к админке\
 http://localhost:1337/admin
+
+Перечь произведений\
+http://localhost:1337/api/v1/titles/
