@@ -18,6 +18,10 @@ infra_sp2 это API проекта api_yamdb, который собирает �
 Выполнить миграции
 
     $ docker-compose exec web python manage.py migrate
+
+Копировать статику
+
+    $ docker-compose exec web python manage.py collectstatic --noinput
    
 Заполнение базы начальными данными
 
